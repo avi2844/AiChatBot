@@ -1,0 +1,36 @@
+.message {
+    max-width: 100%;
+    width: auto;
+    min-width: 200px;
+    height: auto;
+    min-height: 100px;
+    border-radius: 20px;
+    background: #D7C7F421;
+    box-shadow: -4px 4px 15px 0px #0000001A;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.icon{
+    height: 130px;
+    object-fit: contain;
+    padding: 2%;
+    border-radius: 50%;
+}
+
+.historyMessage{
+    max-width: 100%;
+    width: auto;
+    min-width: 200px;
+    height: auto;
+    min-height: 100px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #BFACE2 0%, #D7C7F4 100%);
+    box-shadow: -4px 4px 15px 0px #0000001A;
+    display: flex;
+    padding: 10px;
+    word-wrap: break-word;
+    flex-direction: column;
+}
